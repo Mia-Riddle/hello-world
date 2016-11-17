@@ -1,2 +1,6 @@
 # hello-world
-this is the beginning of a journey
+
+
+Hey there!
+
+My name is Mia and I'm super new to coding. I hope to one day design websites and create mini games by coding.
