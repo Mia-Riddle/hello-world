@@ -1,0 +1,26 @@
+{
+  "last_verified": "2026-09-05",
+  "note": "Prices are ballpark USD estimates as of last_verified above, based on general market research -- not a live price feed. Always check current price/stock before buying. This file is plain JSON: add, remove, or reprice parts freely.",
+  "cpu": [
+    {"name": "AMD Ryzen 7 7700", "threads": 16, "ghz": 5.3, "price_usd": 250, "note": "Budget 8-core/16-thread. Fine for single-stream 1080p-4K H.264/H.265."},
+    {"name": "AMD Ryzen 9 9900X", "threads": 24, "ghz": 5.6, "price_usd": 430, "note": "12-core/24-thread. Handles 4K multicam and RAW comfortably."},
+    {"name": "AMD Ryzen 9 9950X", "threads": 32, "ghz": 5.7, "price_usd": 580, "note": "16-core/32-thread. Best pure render/encode throughput in this list."},
+    {"name": "Intel Core Ultra 9 285K", "threads": 24, "ghz": 5.7, "price_usd": 560, "note": "Strong Quick Sync hardware decode -- a good alternative if you're heavy on H.264/H.265."}
+  ],
+  "gpu": [
+    {"name": "NVIDIA RTX 5060 Ti 16GB", "vram_gb": 16, "price_usd": 430, "note": "Budget-friendly 16GB card, solid 4K H.264/H.265 entry point."},
+    {"name": "NVIDIA RTX 5070 Ti 16GB", "vram_gb": 16, "price_usd": 750, "note": "Sweet spot for 4K grading/effects; most mature GPU-accelerated path in most NLEs."},
+    {"name": "NVIDIA RTX 5080 16GB", "vram_gb": 16, "price_usd": 1000, "note": "Faster compute for heavy noise reduction/compositing, same 16GB ceiling as the 5070 Ti."},
+    {"name": "NVIDIA RTX 5090 32GB", "vram_gb": 32, "price_usd": 2000, "note": "For 6K-8K RAW or heavy multicam grading. Overkill below that."}
+  ],
+  "ram": [
+    {"name": "32GB DDR5 kit (2x16GB)", "ram_gb": 32, "price_usd": 110, "note": "Baseline for smooth 4K editing."},
+    {"name": "64GB DDR5 kit (2x32GB)", "ram_gb": 64, "price_usd": 220, "note": "Recommended once you're in 4K RAW or multicam territory."},
+    {"name": "128GB DDR5 kit (2x64GB)", "ram_gb": 128, "price_usd": 450, "note": "Heavy multicam/RAW plus other creative apps open at the same time."}
+  ],
+  "storage": [
+    {"name": "2TB PCIe4 NVMe SSD", "sequential_mb_s": 7000, "capacity_gb": 2000, "price_usd": 130, "note": "Great as a dedicated scratch/media drive -- don't edit off your OS drive."},
+    {"name": "4TB PCIe4 NVMe SSD", "sequential_mb_s": 7000, "capacity_gb": 4000, "price_usd": 260, "note": "More headroom for a full documentary project's worth of raw footage."},
+    {"name": "2TB Thunderbolt/USB4 NVMe enclosure + drive", "sequential_mb_s": 2800, "capacity_gb": 2000, "price_usd": 220, "note": "Portable option for footage brought back from a shoot."}
+  ]
+}

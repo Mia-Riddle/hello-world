@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Your saved builds contain your own PC specs/budget -- kept local by default.
+saved_builds/*.json
+
+# Exported spreadsheets are personal budget files, not source code.
+*.xlsx
