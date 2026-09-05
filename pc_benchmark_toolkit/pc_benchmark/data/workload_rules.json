@@ -1,0 +1,56 @@
+{
+  "_comment": "These are engineering rules-of-thumb for translating an editing workflow into hardware targets. Nothing here is a secret formula from someone else's database -- tune these numbers if your real-world experience disagrees with the tool's verdict.",
+  "resolution_factor": {
+    "1080p": 1,
+    "1440p": 1.8,
+    "4k": 4,
+    "5k": 6,
+    "6k": 9,
+    "8k": 16
+  },
+  "codecs": {
+    "h264_h265_long_gop": {
+      "label": "H.264 / H.265 (long-GOP) -- typical mirrorless/DSLR documentary footage",
+      "cpu_factor": 3.0,
+      "gpu_factor": 1.0,
+      "bitrate_mbps_at_4k": 150,
+      "ram_add_gb": 0
+    },
+    "prores_dnxhr": {
+      "label": "ProRes / DNxHR -- intermediate or high-end camera codec",
+      "cpu_factor": 1.0,
+      "gpu_factor": 0.7,
+      "bitrate_mbps_at_4k": 700,
+      "ram_add_gb": 4
+    },
+    "raw_braw_red": {
+      "label": "RAW -- BRAW / RED / ARRIRAW",
+      "cpu_factor": 1.6,
+      "gpu_factor": 2.0,
+      "bitrate_mbps_at_4k": 400,
+      "ram_add_gb": 8
+    }
+  },
+  "grading_factor": {
+    "light": 1.0,
+    "moderate": 1.4,
+    "heavy": 2.0
+  },
+  "base_gpu_vram_gb": {
+    "1080p": 4,
+    "1440p": 6,
+    "4k": 10,
+    "5k": 12,
+    "6k": 16,
+    "8k": 20
+  },
+  "cpu_threads_per_unit_min": 1.2,
+  "cpu_threads_per_unit_comfortable": 1.8,
+  "min_ghz_base": 2.8,
+  "min_ghz_raw_or_multicam": 3.2,
+  "ram_base_gb": 8,
+  "ram_per_unit_gb": 3,
+  "ram_per_stream_gb": 4,
+  "storage_headroom_multiplier": 1.5,
+  "supported_ram_sizes_gb": [8, 16, 32, 64, 96, 128, 192, 256]
+}
