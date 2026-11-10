@@ -2,7 +2,7 @@
   "song": "/tmp/claude-0/-home-user-hello-world/a718f796-e618-5c83-8db6-69905e0381d3/scratchpad/work/OZEKI_M2.m4a",
   "duration": 272.19,
   "language": "en",
-  "source": "transcript",
+  "source": "lyrics",
   "lines": [
     {
       "start": 55.85,
@@ -75,24 +75,54 @@
       "text": "In a little light"
     },
     {
-      "start": 141.29,
-      "end": 142.36,
-      "text": "Ooh la la"
+      "start": 116.84,
+      "end": 122.34,
+      "text": "Bien venu"
     },
     {
-      "start": 142.36,
-      "end": 144.01,
-      "text": "say say, say say"
+      "start": 123.94,
+      "end": 129.43,
+      "text": "Bien venu"
     },
     {
-      "start": 144.01,
+      "start": 131.03,
+      "end": 132.98,
+      "text": "Chez-moi"
+    },
+    {
+      "start": 134.58,
+      "end": 136.53,
+      "text": "Chez-moi"
+    },
+    {
+      "start": 138.13,
+      "end": 142.7,
+      "text": "Ohh la la"
+    },
+    {
+      "start": 142.7,
+      "end": 143.37,
+      "text": "C’est ça"
+    },
+    {
+      "start": 143.37,
+      "end": 144.05,
+      "text": "C’est ça"
+    },
+    {
+      "start": 144.05,
       "end": 145.05,
-      "text": "Ooh la la"
+      "text": "Ohh la la"
     },
     {
       "start": 145.05,
+      "end": 146.0,
+      "text": "Say what"
+    },
+    {
+      "start": 146.0,
       "end": 146.85,
-      "text": "say what, say what"
+      "text": "Say what"
     },
     {
       "start": 146.85,
@@ -101,68 +131,108 @@
     },
     {
       "start": 149.14,
+      "end": 150.8,
+      "text": "You can stay"
+    },
+    {
+      "start": 150.8,
       "end": 152.33,
-      "text": "you can stay if you want"
+      "text": "If you want"
     },
     {
       "start": 152.33,
-      "end": 153.95,
-      "text": "Welcome to the party"
+      "end": 152.83,
+      "text": "It is what it is"
     },
     {
-      "start": 153.95,
-      "end": 155.65,
-      "text": "you say you play what?"
+      "start": 152.83,
+      "end": 153.33,
+      "text": "You can slay"
     },
     {
-      "start": 155.65,
-      "end": 157.65,
-      "text": "Play what?"
+      "start": 153.33,
+      "end": 153.83,
+      "text": "If you want"
     },
     {
-      "start": 157.65,
+      "start": 153.83,
+      "end": 154.33,
+      "text": "Welcome"
+    },
+    {
+      "start": 154.33,
+      "end": 154.83,
+      "text": "to the party"
+    },
+    {
+      "start": 154.83,
+      "end": 155.33,
+      "text": "You say you"
+    },
+    {
+      "start": 155.33,
+      "end": 155.83,
+      "text": "Play what"
+    },
+    {
+      "start": 155.83,
+      "end": 157.93,
+      "text": "Play what"
+    },
+    {
+      "start": 157.93,
+      "end": 159.12,
+      "text": "Dial in the tone"
+    },
+    {
+      "start": 159.12,
       "end": 160.45,
-      "text": "I'm dialing the tone to make you pay by"
+      "text": "To make ya paper"
     },
     {
       "start": 160.45,
       "end": 161.83,
-      "text": "Here's a microphone"
+      "text": "Here’s a microphone"
     },
     {
       "start": 161.83,
-      "end": 163.01,
-      "text": "just make a layup"
+      "end": 165.9,
+      "text": "Just make a lay up"
     },
     {
-      "start": 163.01,
-      "end": 167.14,
-      "text": "Apocryphalic playup"
+      "start": 165.9,
+      "end": 168.09,
+      "text": "Apocrophitic playa"
     },
     {
       "start": 168.09,
       "end": 169.73,
-      "text": "I'm just tryna fill you in"
+      "text": "I’m just tryin to feel you in"
     },
     {
       "start": 169.73,
       "end": 171.2,
-      "text": "Where do I begin?"
+      "text": "Where should I begin"
     },
     {
       "start": 171.2,
       "end": 173.17,
-      "text": "Please start at page 10"
+      "text": "Please start at page then"
     },
     {
       "start": 173.17,
-      "end": 176.6,
-      "text": "First you want to fall"
+      "end": 176.66,
+      "text": "First you were a foe"
     },
     {
-      "start": 176.6,
+      "start": 176.66,
+      "end": 179.61,
+      "text": "Then I found you as a"
+    },
+    {
+      "start": 179.61,
       "end": 182.26,
-      "text": "and I found you as a friend"
+      "text": "Friend"
     }
   ]
 }

@@ -44,8 +44,16 @@ def normalize(word):
 def read_lyrics(path):
     with open(path, encoding="utf-8") as f:
         lines = [ln.strip() for ln in f]
-    # Ignore blank lines and section labels like [Chorus] or (Verse 2)
-    return [ln for ln in lines if ln and not re.fullmatch(r"[\[(].*[\])]", ln)]
+    out = []
+    for ln in lines:
+        # Ignore blank lines and section labels like [Chorus] or (Verse 2)
+        if not ln or re.fullmatch(r"[\[(].*[\])]", ln):
+            continue
+        # "Say what (x2)" -> the line twice
+        m = re.search(r"\s*[\[(]\s*x\s*(\d+)\s*[\])]\s*$", ln, re.I)
+        repeat = int(m.group(1)) if m else 1
+        out += [ln[:m.start()].strip() if m else ln] * repeat
+    return out
 
 
 def words_with_times(segments):
@@ -136,6 +144,12 @@ def lines_from_lyrics(lyric_lines, segments):
         if not idx:
             continue
         lines.append({"start": times[idx[0]][0], "end": times[idx[-1]][1], "text": text})
+    # Every line keeps its own moment on screen, even if it was sung too fast
+    # (or too quietly) for the computer to hear it separately.
+    for prev, line in zip(lines, lines[1:]):
+        if line["start"] < prev["start"] + 0.5:
+            line["start"] = prev["start"] + 0.5
+            line["end"] = max(line["end"], line["start"] + 0.5)
     matched = len(match_for) / max(1, len(lyric_words))
     return lines, matched
 
